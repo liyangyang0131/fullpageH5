@@ -13,7 +13,7 @@ $(function(){
     // fullpage初始化
     function fullpage(){
         $('.wp-inner').fullpage({
-            drag:'true',
+            drag:true,
             change: function (e) {
                 // 移除动画属性
                 $('.page').eq(e.cur).find('.animated').each(function() {
