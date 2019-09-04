@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>H5全屏切换页面</title>
+    
+    <link rel="stylesheet" href="https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css">
+    <link href="https://cdn.bootcss.com/zepto.fullpage/0.5.0/zepto.fullpage.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="bgMusic">
+        <audio id="myMusic" src="./audio/bg.mp3" autoplay loop></audio>
+    </div>
+    <div class="wp">
+        <div class="wp-inner">
+            <div class="page page1">
+                <div class="animated bounceInUp" data-animate="bounceInUp">
+                    <h3>你儿时的的梦想</br>是什么？</h3>
+                    <p>作家？航天员？周游世界？</p>
+                </div>
+            </div>
+            <div class="page page2">
+                <div class="animated slideInDown" data-animate="slideInDown">
+                    <h3>你呢？</h3>
+                    <p class="animated fadeIn" data-animate="fadeIn">这个世界很大，我想出去走走！</p>
+                </div>
+            </div>
+            <div class="page page3">
+                <div class="animated pulse infinite" data-animate="pulse">
+                    <h3>土耳其篇</h3>
+                    <p>土耳其是一个横跨欧亚大陆的伊斯兰教国家，被称为"文明的摇篮"。<br><b>最佳季节：</b>4月-10月最佳，不过海岸线长达八千千米的土耳其，各区域的气候各不相同，如果要进行海水浴，5月-10月最好，去土耳其东部，则7月-9月最好。</p>
+                </div>
+            </div>
+            <div class="page page4">
+                <div class="animated slideInRight" data-animate="slideInRight">
+                    <div class="page4-img"></div>
+                    <p>意大利因其拥有美丽的自然风光和为数众多的人类文化遗产而被称为美丽的国度。<br><b>最佳季节：</b>5月-10月最佳，意大利一年四季都适合旅游，旺季集中在每年5月至10月，4-6月是天气最好的季节。</p>
+                </div>
+            </div>
+            <div class="page page5">
+                <div class="animated shake" data-animate="shake">
+                    <h3>威尼斯篇</h3>
+                    <p>威尼斯（Venice），别名“亚得里亚海的女王”、“水都”、“桥之城”及“光之城”，堪称世界最浪漫的城市之一。<br><b>最佳季节：</b>3-5月、9-11月。<br>1、每年3月～5月：春季是威尼斯最舒服的季节，平均气温10－18℃，气候宜人，景色旖旎。 <br>2、每年9月～11月：秋天的威尼斯可谓人见人爱，经过一个夏天的热闹，秋天的运河格外清澈美丽，这个季节是威尼斯最清爽的季节。</p>
+                </div>
+            </div>
+            <div class="page page6">
+                <div class="animated jackInTheBox" data-animate="jackInTheBox">
+                    <h3>想去哪里？</br>赶紧行动起来吧！</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="arrow"></div>
+
+    <script src="./lib/zepto.js"></script>
+    <script src="https://cdn.bootcss.com/zepto.fullpage/0.5.0/zepto.fullpage.min.js"></script>
+    <script src='./js/index.js'></script>
+</body>
+</html>
